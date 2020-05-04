@@ -1,0 +1,15 @@
+﻿  driver.c
+  errormsg.c
+D:\Projects\tiger-compiler\tiger-mine\chapter2\errormsg.c(64,1): error C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(208): message : 参见“fopen”的声明
+  lex.yy.c
+tiger.lex(31,31): warning C4013: “atoi”未定义；假设外部返回 int
+tiger.lex(61,20): warning C4477: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 2 拥有了类型“char *”
+lex.yy.c(1320,2): error C4996: 'fileno': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _fileno. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(2459): message : 参见“fileno”的声明
+lex.yy.c(1514,6): warning C4013: “exit”未定义；假设外部返回 int
+lex.yy.c(1577,24): warning C4013: “malloc”未定义；假设外部返回 int
+lex.yy.c(1595,25): warning C4013: “realloc”未定义；假设外部返回 int
+lex.yy.c(1605,6): warning C4013: “free”未定义；假设外部返回 int
+  util.c
+  正在生成代码...
